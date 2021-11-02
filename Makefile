@@ -1,2 +1,2 @@
 cppcheck:
-  cppcheck --enable=all gcd.c
+	cppcheck --enable=all gcd.c
