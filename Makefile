@@ -5,4 +5,4 @@ cppcheck:
 	cppcheck --enable=all gcd.c
 
 valgrind:
-	valgrind gcd
+	valgrind ./gcd
