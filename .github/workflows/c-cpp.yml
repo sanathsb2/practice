@@ -16,8 +16,5 @@ jobs:
     
     - name: C++ code check using clang/cppcheck/flawfinder
   # You may pin to the exact commit or the version.
-  # uses: Tlazypanda/cpp-clang-check@04a60b06b9d47aa96700292df9951674d8c37a06
-      uses: Tlazypanda/cpp-clang-check@0.13
-      env:
-          GITHUB_TOKEN: ${{ github.token }}
-
+      uses: Tlazypanda/cpp-clang-check@04a60b06b9d47aa96700292df9951674d8c37a06
+      #uses: Tlazypanda/cpp-clang-check@0.13
